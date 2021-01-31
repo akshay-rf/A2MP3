@@ -2,6 +2,7 @@
 from selenium import webdriver
 import time
 from os import path
+import sys
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
@@ -16,48 +17,53 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
 
 while True:
-    fin = ''
-    inp = input("\nSong name: ")
-    for i in inp.split():
-        if i == inp.split()[0]:
-            fin += i
+    try:
+        fin = ''
+        inp = input("\nSong name: ")
+        for i in inp.split():
+            if i == inp.split()[0]:
+                fin += i
+            else:
+                fin += f"+{i}"
+
+        url = f"https://www.youtube.com/results?search_query={fin}"
+            
+        driver.get(url)
+
+        source1 = driver.find_element_by_xpath('//*[@id="video-title"]')
+        title = source1.get_attribute('title')
+        href = source1.get_attribute('href')
+
+        print(f"\n{title}")
+
+        r = input("(y/n): ")
+
+        if r.lower() == 'n':
+            print("Please enter the song name with the Artist name for better results.")
+
         else:
-            fin += f"+{i}"
+            source_url = f"{href}"
 
-    url = f"https://www.youtube.com/results?search_query={fin}"
-        
-    driver.get(url)
+            
+            ydl_opts = {
+                'format': 'bestaudio/best',
+                'postprocessors': [{
+                    'key': 'FFmpegExtractAudio',
+                    'preferredcodec': 'mp3',
+                    'preferredquality': '320',
+                }],
+            }
 
-    source1 = driver.find_element_by_xpath('//*[@id="video-title"]')
-    title = source1.get_attribute('title')
-    href = source1.get_attribute('href')
+            print("Downloading...")
+            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                ydl.download([source_url])
 
-    print(f"\n{title}")
+            print("Downloaded succesfully")
 
-    r = input("(y/n): ")
+    except KeyboardInterrupt:
+        driver.quit()
+        sys.exit(0)
 
-    if r.lower() == 'n':
-        print("Please enter the song name with the Artist name for better results.")
 
-    else:
-        source_url = f"{href}"
-
-        
-        ydl_opts = {
-            'format': 'bestaudio/best',
-            'postprocessors': [{
-                'key': 'FFmpegExtractAudio',
-                'preferredcodec': 'mp3',
-                'preferredquality': '320',
-            }],
-        }
-
-        print("Downloading...")
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([source_url])
-
-        print("Downloaded succesfully")
-
-driver.quit()
             
 
