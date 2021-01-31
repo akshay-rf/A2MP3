@@ -1,7 +1,7 @@
 # A2MP3
 **A2MP3** is a command line tool to download any song with just *keywords* or *song title*.
 
-# Install
+## Install
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ***youtube-dl*** and ***selenium***.
 
     pip install youtube-dl
@@ -21,7 +21,7 @@ At this point copy the 3 files you can find on bin folder, and paste them in the
 * youtube-dl will be used to download the audio from youtube.  
 * ffmpeg will convert them to mp3.
 
-# Usage
+## Usage
 * Run **main.py**.
 
 ![Screenshot 1](https://i.ibb.co/pXcBZQJ/Screenshot-from-2021-01-31-16-01-53.png)
@@ -35,7 +35,7 @@ At this point copy the 3 files you can find on bin folder, and paste them in the
 * The song will be downloaded in the current directory where the *main.py* file is running.
 
 ![enter image description here](https://i.ibb.co/M7Y0vYQ/Screenshot-from-2021-01-31-16-02-54.png)
-# For frequent usage (*linux*)
+## For frequent usage (*linux*)
 You can create a custum command for linux terminal in order to use frequently.
 * Open ***.bashrc*** file with nano
 
@@ -54,7 +54,7 @@ Now you can use the command ***A2MP3*** in your terminal to run the main.py file
 
 ![enter image description here](https://i.ibb.co/26xFWBT/Screenshot-from-2021-01-31-17-13-38.png)
 
-# Liscence
+## Liscence
 ***A2MP3*** is liscenced under the terms of [GNU General Public License](https://www.gnu.org/licenses/licenses.en.html#GPL)
 
 *FAQs contact me* - ***gamerscrew2017.4bullets@gmail.com***
