@@ -57,7 +57,7 @@ You can create a custum command for linux terminal in order to use frequently.
 
     `user@ubuntu:~$ nano ~/.bashrc`
 
-* Find `# some mode ls aliases` and add
+* Find `# some more ls aliases` and add
 
     `alias A2MP3 = "python3 path/to/the/main.py"`
     
