@@ -38,7 +38,7 @@ On ***Windows***:
 * ffmpeg will convert them to mp3.
 
 ## Usage
-* Run **main.py**.
+* Run `main.py`.
 
 ![Screenshot 1](https://i.ibb.co/pXcBZQJ/Screenshot-from-2021-01-31-16-01-53.png)
 
@@ -48,7 +48,7 @@ On ***Windows***:
 ![Screenshot 2](https://i.ibb.co/nbHd197/Screenshot-from-2021-01-31-16-02-16.png)
 
 * Enter '***y***' if its the song you wanted. If not, enter '***n***' and insert a more relevant *title* or *keyword*.
-* The song will be downloaded in the current directory where the *main.py* file is running.
+* The song will be downloaded in the current directory where the `main.py` file is running.
 
 ![enter image description here](https://i.ibb.co/M7Y0vYQ/Screenshot-from-2021-01-31-16-02-54.png)
 ## For frequent usage (*linux*)
@@ -66,13 +66,15 @@ You can create a custum command for linux terminal in order to use frequently.
 * Press **Ctrl + O** to write out and press **RETURN**. Then exit the editor by pressing **Ctrl + X**
 * Restart the terminal
 
-Now you can use the command ***A2MP3*** in your terminal to run the *main.py* file.
+Now you can use the command ***A2MP3*** in your terminal to run the `main.py` file.
 
 ![enter image description here](https://i.ibb.co/26xFWBT/Screenshot-from-2021-01-31-17-13-38.png)
 
-Use **Ctrl+C** to make *main.py* exit with an error code 0.
+Use **Ctrl+C** to make `main.py` exit with an error code 0.
 
 ## Liscence
 ***A2MP3*** is liscenced under the terms of [GNU General Public License](https://www.gnu.org/licenses/licenses.en.html#GPL)
+
+*Built By* - [***Akshay RF***](https://github.com/akshay-rf)
 
 *FAQs contact me* - ***gamerscrew2017.4bullets@gmail.com***
