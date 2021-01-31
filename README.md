@@ -37,4 +37,6 @@ At this point copy the 3 files you can find on bin folder, and paste them in the
 ![enter image description here](https://i.ibb.co/M7Y0vYQ/Screenshot-from-2021-01-31-16-02-54.png)
 
 # Liscence
+***A2MP3*** is liscenced under the terms of [GNU General Public License](https://www.gnu.org/licenses/licenses.en.html#GPL)
+
 *FAQs contact me* - ***gamerscrew2017.4bullets@gmail.com***
