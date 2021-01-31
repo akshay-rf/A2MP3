@@ -22,7 +22,7 @@ At this point copy the 3 files you can find on bin folder, and paste them in the
 * ffmpeg will convert them to mp3.
 
 # Usage
-* Run **main.py**
+* Run **main.py**.
 ![Screenshot 1](https://i.ibb.co/pXcBZQJ/Screenshot-from-2021-01-31-16-01-53.png)
 
 * Insert ***song title*** or ***keyword***. 
