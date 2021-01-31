@@ -1,4 +1,4 @@
-# from __future__ import unicode_literals
+from __future__ import unicode_literals
 from selenium import webdriver
 from os import path
 import sys
@@ -36,7 +36,7 @@ while True:
         r = input("(y/n): ")
 
         if r.lower() == 'n':
-            print("Please enter the song name with the Artist name for better results.")
+            print("Please enter the song name with the artist's name for better results.")
 
         else:
             source_url = f"{href}"
@@ -51,11 +51,11 @@ while True:
                 }],
             }
 
-            print("Downloading...")
+            print("\nDownloading...")
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
                 ydl.download([source_url])
 
-            print("Downloaded succesfully")
+            print("\nDownloaded succesfully")
 
     except KeyboardInterrupt:
         driver.quit()
