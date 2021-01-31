@@ -1,10 +1,7 @@
 # from __future__ import unicode_literals
 from selenium import webdriver
-import time
 from os import path
 import sys
-from selenium.webdriver import ActionChains
-from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 import youtube_dl
 
