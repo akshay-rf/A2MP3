@@ -38,6 +38,7 @@ On ***Windows***:
 * ffmpeg will convert them to mp3.
 
 ## Usage
+* Make sure you're connected to the internet.
 * Run `main.py`.
 
 ![Screenshot 1](https://i.ibb.co/pXcBZQJ/Screenshot-from-2021-01-31-16-01-53.png)
