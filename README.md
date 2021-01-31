@@ -50,6 +50,7 @@ You can create a custum command for linux terminal in order to use frequently.
 * Restart the terminal
 
 Now you can use the command ***A2MP3*** in your terminal to run the main.py file.
+
 ![enter image description here](https://i.ibb.co/26xFWBT/Screenshot-from-2021-01-31-17-13-38.png)
 
 # Liscence
