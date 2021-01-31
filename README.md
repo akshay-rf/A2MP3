@@ -7,16 +7,31 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ***yout
     pip install youtube-dl
     pip install selenium
 
-Then you will need to install ffmpeg, for linux based machines, you will just need to use your console.  
+You will need to install ffmpeg, for linux based machines, you will just need to use your console.  
 Example Ubuntu:
 
     sudo apt update
     sudo apt install ffmpeg
-
+    
 On windows ones instead, you will need to download the [last build](https://ffmpeg.org/download.html#build-windows)  
 At this point copy the 3 files you can find on bin folder, and paste them in the main Python's scripts folder.
 
 ![enter image description here](https://camo.githubusercontent.com/8029dedf1ed27d2a12e30879e662ceca4d91b4d1898322ec08da2a09a220641a/68747470733a2f2f692e6962622e636f2f676d4a5a317a432f6161616161612e706e67)
+
+Then you will need to install Google Chrome, for linux based machines, you will just need to use your console.  
+Example ***Ubuntu***:
+  * Download the latest Google Chrome `.deb` package with [wget](https://linuxize.com/post/wget-command-examples/):
+  
+    `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+* Install the Google Chrome `.deb` package by typing: 
+ 
+    `sudo apt install ./google-chrome-stable_current_amd64.deb`
+    
+On ***Windows***:
+* [Download the installation file.](https://www.google.com/chrome/browser/desktop/index.html)
+* If prompted, click **Run** or **Save**.
+* If you chose **Save**, double-click the download to start installing.
+    
 ## Info
 * selenium will be used to find the most relevant song for the appropiate keyword or title.
 * youtube-dl will be used to download the audio from youtube.  
