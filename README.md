@@ -35,6 +35,22 @@ At this point copy the 3 files you can find on bin folder, and paste them in the
 * The song will be downloaded in the current directory where the *main.py* file is running.
 
 ![enter image description here](https://i.ibb.co/M7Y0vYQ/Screenshot-from-2021-01-31-16-02-54.png)
+# For frequent usage (*linux*)
+You can create a custum command for linux terminal in order to use frequently.
+* Open ***.bashrc*** file with nano
+
+    user@ubuntu:~$ nano ~/.bashrc
+
+* Find ***# some mode ls aliases*** and add
+
+    alias A2MP3 = "python3 path/to/the/main.py"
+    ![enter image description here](https://i.ibb.co/tz1vf3Z/Screenshot-from-2021-01-31-17-09-50.png)
+
+* Press **Ctrl + O** to write out and press **RETURN**. Then exit the editor by pressing **Ctrl + X**
+* Restart the terminal
+
+Now you can use the command ***A2MP3*** in your terminal to run the main.py file.
+![enter image description here](https://i.ibb.co/26xFWBT/Screenshot-from-2021-01-31-17-13-38.png)
 
 # Liscence
 ***A2MP3*** is liscenced under the terms of [GNU General Public License](https://www.gnu.org/licenses/licenses.en.html#GPL)
