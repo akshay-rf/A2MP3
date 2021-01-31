@@ -22,17 +22,17 @@ At this point copy the 3 files you can find on bin folder, and paste them in the
 * ffmpeg will convert them to mp3.
 
 # Usage
-Run **main.py**.
+* Run **main.py**.
 
 ![Screenshot 1](https://i.ibb.co/pXcBZQJ/Screenshot-from-2021-01-31-16-01-53.png)
 
-Insert ***song title*** or ***keyword***. 
-We'll download '*1x1*' by '*Bring Me The Horizon ft. Nova Twins*' for this tutorial.
+* Insert ***song title*** or ***keyword***. 
+* We'll download '*1x1*' by '*Bring Me The Horizon ft. Nova Twins*' for this tutorial.
 
 ![Screenshot 2](https://i.ibb.co/nbHd197/Screenshot-from-2021-01-31-16-02-16.png)
 
-Enter '***y***' if its the song you wanted. If not, enter '***n***' and insert a more relevant *title* or *keyword*.
-The song will be downloaded in the current directory where the *main.py* file is running.
+* Enter '***y***' if its the song you wanted. If not, enter '***n***' and insert a more relevant *title* or *keyword*.
+* The song will be downloaded in the current directory where the *main.py* file is running.
 
 ![enter image description here](https://i.ibb.co/M7Y0vYQ/Screenshot-from-2021-01-31-16-02-54.png)
 
