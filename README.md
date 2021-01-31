@@ -66,11 +66,11 @@ You can create a custum command for linux terminal in order to use frequently.
 * Press **Ctrl + O** to write out and press **RETURN**. Then exit the editor by pressing **Ctrl + X**
 * Restart the terminal
 
-Now you can use the command ***A2MP3*** in your terminal to run the main.py file.
+Now you can use the command ***A2MP3*** in your terminal to run the *main.py* file.
 
 ![enter image description here](https://i.ibb.co/26xFWBT/Screenshot-from-2021-01-31-17-13-38.png)
 
-Use **Ctrl+C** to make main.py exit with an error code 0.
+Use **Ctrl+C** to make *main.py* exit with an error code 0.
 
 ## Liscence
 ***A2MP3*** is liscenced under the terms of [GNU General Public License](https://www.gnu.org/licenses/licenses.en.html#GPL)
