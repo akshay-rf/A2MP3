@@ -54,6 +54,8 @@ Now you can use the command ***A2MP3*** in your terminal to run the main.py file
 
 ![enter image description here](https://i.ibb.co/26xFWBT/Screenshot-from-2021-01-31-17-13-38.png)
 
+Use **Ctrl+C** to make main.py exit with an error code 0.
+
 ## Liscence
 ***A2MP3*** is liscenced under the terms of [GNU General Public License](https://www.gnu.org/licenses/licenses.en.html#GPL)
 
