@@ -44,6 +44,7 @@ You can create a custum command for linux terminal in order to use frequently.
 * Find ***# some mode ls aliases*** and add
 
     `alias A2MP3 = "python3 path/to/the/main.py"`
+    
     ![enter image description here](https://i.ibb.co/tz1vf3Z/Screenshot-from-2021-01-31-17-09-50.png)
 
 * Press **Ctrl + O** to write out and press **RETURN**. Then exit the editor by pressing **Ctrl + X**
