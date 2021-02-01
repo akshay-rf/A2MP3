@@ -55,8 +55,9 @@ On ***Windows***:
 ## For frequent usage (*linux*)
 You can create a custum command for linux terminal in order to use frequently.
 * Open ***.bashrc*** file with nano
-
-    `user@ubuntu:~$ nano ~/.bashrc`
+```bash
+user@ubuntu:~$ nano ~/.bashrc
+```
 
 * Find `# some more ls aliases` and add
 
