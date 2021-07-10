@@ -22,10 +22,14 @@ Then you will need to install Google Chrome, for linux based machines, you will 
 Example ***Ubuntu***:
   * Download the latest Google Chrome `.deb` package with [wget](https://linuxize.com/post/wget-command-examples/):
   
-    `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+    ```console
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    ```
 * Install the Google Chrome `.deb` package by typing: 
  
-    `sudo apt install ./google-chrome-stable_current_amd64.deb`
+    ```console
+    sudo apt install ./google-chrome-stable_current_amd64.deb
+    ```
     
 On ***Windows***:
 * [Download the installation file.](https://www.google.com/chrome/browser/desktop/index.html)
